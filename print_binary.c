@@ -2,6 +2,7 @@
 /**
  * print_binary-print unsigned int to binary
  * @b: va_list array
+ * Return: return count
  */
 int print_binary(va_list b)
 {
