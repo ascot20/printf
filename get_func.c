@@ -14,7 +14,7 @@ int (*get_func(char inp))(va_list)
 	{"%", print_percentage},
 	{"d", print_double},
 	{"i", print_integer},
-	{"d", print_binary},
+	{"b", print_binary},
 	{NULL, NULL}
 };
 
