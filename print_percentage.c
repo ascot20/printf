@@ -1,4 +1,4 @@
-#include "_printf.h"
+#include "main.h"
 /**
  * print_percentage - print the percentage symbol
  * @args: string  argument
