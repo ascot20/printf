@@ -6,7 +6,7 @@
 */
 int print_U(va_list args)
 {
-	char buf;
+	char buf[12];
 	int g;
 	int count;
 	unsigned int s = va_arg(args, unsigned int);
@@ -16,9 +16,9 @@ int print_U(va_list args)
 		_putchar('0');
 		return (1);
 	}
-	buf[12];
 	g = 11;
 	buf[g--] = '\0';
+
 	while (s != 0)
 	{
 		buf[g--] = s % 10 + '0';
@@ -30,4 +30,6 @@ int print_U(va_list args)
 		_putchar(buf[g]);
 		count += 1;
 	}
+
 	return (count);
+}
