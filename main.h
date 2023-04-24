@@ -6,11 +6,19 @@
 #include <stdlib.h>
 #include <stddef.h>
 
+/**
+ * struct spec - defines struct
+ * @type: pointer for char variable
+ * @funcptr: a function pointer
+ *
+ *Description: Structure to store char and function pointer
+ */
 
-typedef struct{
-    char *type;
-    int (*funcptr)(va_list);
-} spec;
+struct spec
+{
+	char *type;
+	int (*funcptr)(va_list);
+};
 
 int _printf(const char *format, ...);
 int print_char(va_list);
