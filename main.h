@@ -22,6 +22,7 @@ typedef struct spec
 
 int _printf(const char *format, ...);
 int print_char(va_list);
+int print_U(va_list);
 int print_string(va_list);
 int print_double(va_list);
 int print_integer(va_list);
