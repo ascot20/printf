@@ -1,4 +1,4 @@
-#include "_printf.h"
+#include "main.h"
 /**
  * print_double - for printing decimal
  * @args: receives decimals as argument
