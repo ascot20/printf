@@ -14,7 +14,7 @@
  *Description: Structure to store char and function pointer
  */
 
-typedef struct
+typedef struct spec
 {
 	char *type;
 	int (*funcptr)(va_list);

@@ -7,7 +7,7 @@ include "_printf.h"
 
 int (*get_func(char inp))(va_list)
 {
-       	int i = 0;
+	int i = 0;
 	spec types[] = {
 	{"c", print_char},
 	{"s", print_string},
@@ -20,7 +20,7 @@ int (*get_func(char inp))(va_list)
 	while (types[i].type)
 	{
 		if (inp == types[i].type[0])
-			return types[i].funcptr;
+			return (types[i].funcptr);
 		i++;
 	}
 	return (NULL);
