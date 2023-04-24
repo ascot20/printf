@@ -14,11 +14,11 @@
  *Description: Structure to store char and function pointer
  */
 
-struct spec
+typedef struct
 {
 	char *type;
 	int (*funcptr)(va_list);
-};
+} spec;
 
 int _printf(const char *format, ...);
 int print_char(va_list);
