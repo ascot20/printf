@@ -1,4 +1,4 @@
-include "_printf.h"
+#include "_printf.h"
 /**
  * get_func-function that returns function pointer
  * @inp: char variable
