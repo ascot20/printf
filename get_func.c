@@ -16,6 +16,7 @@ int (*get_func(char inp))(va_list)
 	{"i", print_integer},
 	{"b", print_binary},
 	{"u", print_U},
+	{"o", print_octal},
 	{NULL, NULL}
 };
 
